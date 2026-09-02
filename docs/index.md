@@ -5,6 +5,10 @@ tags:
 - tag2
 ---
 <center>
+ ![Description of the image](<img width="1131" height="371" alt="Screenshot 2025-12-11 172433" src="https://github.com/user-attachments/assets/cd6b8f2d-7ceb-4800-a747-696c49e0bac2" />
+) 
+</center>
+<center>
 <font size= "6"> Jaxon Boyce-Gaudreau Datasheet</font><br>
 as part of<br>
 <font size= "8"> Project Name</font><br>
