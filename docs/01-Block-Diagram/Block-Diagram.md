@@ -21,4 +21,4 @@ To get some initial formatting help, one can view ["here"](https://embedded-syst
 ## Example Block Diagram 
 Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
 
-![Example of Indivial Block diagram ](site/Block-Diagram.drawio.png)
+![Example of Indivial Block diagram ](<img width="552" height="452" alt="Block-Diagram drawio" src="https://github.com/user-attachments/assets/f5c7291b-42a6-444a-a8ed-f106c65e8bc3" />)
