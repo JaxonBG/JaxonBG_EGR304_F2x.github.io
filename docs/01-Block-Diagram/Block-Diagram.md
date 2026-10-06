@@ -13,7 +13,6 @@ Things to mention are:
 * Actuator
 * team connections
 * Power source
-* ...
 
 To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
 
