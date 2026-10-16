@@ -23,8 +23,12 @@ title: Component Selection Example
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| ![](https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/859a3b1081e82c4aaa314783000e0cb597184415/docs/02-Component-Selection/LM386N-3.webp)<br>Option 1.<br> LM386N-3/NOPB audio amplifier<br>$1.18/each<br>[link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM386N-3-NOPB/148191)                 | \* Designed for speakers<br>\* Through-hole PDIP-8<br>\* Operates from 4–12 V                                               | \* Requires capacitors<br>\* Audio quality not as good as modern Class-D amps |
+| ![](image3.png)<br>\* Option 2. <br>\ LM358N audio amplifier <br>\ Price not shown <br>\* [Link to product](https://www.digikey.com/en/products/detail/rochester-electronics-llc/LM358N/11552028) | \- Through-hole DIP-8 <br>\- Wide power supply range <br> \- Suitable for battery operation (if as a group we decide to use that) | - Not an audio amplifier <br>\- Slow shipping speed and non-refundable<br>\- no price shown on Digikey                                                        |
+
+**Choice:** Option 1: LM386N-3 audio amplifier 
+
+**Rationale:** The LM386 was chosen because it is designed for audio amplification and can directly drive an 8 Ω speaker from a 5 V supply which is very helpful since I will not need to introduce another power supply. This makes it a practical choice for increasing the output power of the DAC signal so that the alarm can be heard clearly. Lastly, the DIP package is easy to solder (I am not good at soldering) and is very commonly used in audio projects so I will be able to access resources on the part if I am having any trouble with this part during construction.  
 
 *Table 1:*
 
@@ -32,41 +36,10 @@ title: Component Selection Example
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| ![](image1.png)<br>Option 1.<br> ADS01008MR-LW100-R speaker<br>$2.77/each<br>[link to product](https://www.digikey.com/en/products/detail/pui-audio-inc/ADS01008MR-LW100-R/12152292)                 | \- Perfect for simple alarm tones and beeps<br>\- Smaller footprint (10 mm diameter)<br>\- 0.5 W rated power                                               | \- Limited frequency range (1500 Hz to 6000 Hz)<br>\- Will Not very loud (82 dB SPL) |
+| ![](image3.png)<br>\ Option 2. <br>\CMS-23558N-L152 speaker <br>\ $6.07/each <br>\ [Link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CMS-23558N-L152/6137736) | \- Wide frequency response (440 Hz to 20 kHz)<br>\- Very good sound quality <br> \- Fast shipping speed | - Way More expensive <br>\- Larger Footprint<br>/ - Requires more amplifier power                                                         |
 
-### Style 2
 
-> Also acceptable, more markdown friendly
+**Choice:** Option 2: CMS-23558N-L152 speaker
 
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
-
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** The CMS-23558N-L152 was chosen because it can produce a louder and clearer alarm signal. As well as, support a much wider frequency range than the other speaker. The 8 Ω impedance is compatible with the LM386 amplifier, and the larger speaker size allows for improved sound quality but will result in a larger footprint, but I believe that it is a challenge I am willing to take for the better performance. The increased cost is also a con, but I believe that the pros of the speaker outweigh that con. 
