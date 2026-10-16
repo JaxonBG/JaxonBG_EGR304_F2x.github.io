@@ -890,18 +890,18 @@
 <tbody>
 <tr>
 <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/5832e9aada04e51ba88e56e98312d493174db3a3/docs/02-Component-Selection/MFG_150~C04-018~P%2CPA~8_sml(200x200).webp" data-desc-position="bottom"><img alt="" src="https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/5832e9aada04e51ba88e56e98312d493174db3a3/docs/02-Component-Selection/MFG_150~C04-018~P%2CPA~8_sml(200x200).webp"></a><br>Option 1.<br> MCP4921-E/P<br>$2.81/each<br><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP4921-E-P/716280">link to product</a></td>
-<td>- 12-bit resolution<br>- SPI interface<br>- Through-hole PDIP-8 package<br>- 2.7 V to 5.5 V operation</td>
+<td>- 12-bit resolution<br>- SPI interface<br>- Through-hole PDIP-8 package<br>- 2.7 V to 5.5 V operation<br>- Fast shipping speed</td>
 <td>- Requires external reference voltage<br>- High unit price</td>
 </tr>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/8a53ec9fd99018947c0953a123851371127fc1dd/docs/02-Component-Selection/MFG_150~C04-018~P%2CPA~8_sml(200x200).webp" data-desc-position="bottom"><img alt="" src="https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/8a53ec9fd99018947c0953a123851371127fc1dd/docs/02-Component-Selection/MFG_150~C04-018~P%2CPA~8_sml(200x200).webp"></a><br>* Option 2. <br>* MCP4801-E/P <br>* $1.61/each <br>* <a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP4801-E-P/2332804?s=N4IgTCBcDaILIGEAKAWAHABgIwFoCiA9EiALoC%2BQA">Link to product</a></td>
-<td>- Easier implementation <br>- Through-hole PDIP-8 <br> - SPI interface</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/8a53ec9fd99018947c0953a123851371127fc1dd/docs/02-Component-Selection/MFG_150~C04-018~P%2CPA~8_sml(200x200).webp" data-desc-position="bottom"><img alt="" src="https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/8a53ec9fd99018947c0953a123851371127fc1dd/docs/02-Component-Selection/MFG_150~C04-018~P%2CPA~8_sml(200x200).webp"></a><br> Option 2. <br> MCP4801-E/P <br> $1.61/each <br> <a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP4801-E-P/2332804?s=N4IgTCBcDaILIGEAKAWAHABgIwFoCiA9EiALoC%2BQA">Link to product</a></td>
+<td>- Easier implementation <br>- Through-hole PDIP-8 <br> - SPI interface<br>- Fast shipping speed</td>
 <td>- Lower waveform quality <br>- 8-bit resolution <br>- More quantization noise</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<p><strong>Choice:</strong> Option 1: MCP4921-E/P DAC</p>
+<p><strong>Rationale:</strong> The MCP4921 was chosen because it provides 12-bit resolution. This allows the microcontroller to generate smoother and more accurate analog waveforms for the alarm/ speaker. It also uses SPI communication, which is supported by the PIC18F57Q43, which will make it easy to integrate into the system while keeping fast data transfer. The through-hole PDIP package also simplifies PCB assembly and soldering, since I would I am not the greatest at soldering. </p>
 <p><em>Table 1: Example component selection</em></p>
 <p><strong>External Clock Module</strong></p>
 <table>
