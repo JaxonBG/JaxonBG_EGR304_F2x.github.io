@@ -17,7 +17,7 @@ title: Component Selection Example
 
 **Rationale:** The MCP4921 was chosen because it provides 12-bit resolution. This allows the microcontroller to generate smoother and more accurate analog waveforms for the alarm/ speaker. It also uses SPI communication, which is supported by the PIC18F57Q43, which will make it easy to integrate into the system while keeping fast data transfer. The through-hole PDIP package also simplifies PCB assembly and soldering, since I would I am not the greatest at soldering. 
 
-*Table 1:*
+*Table 2:*
 
 **Audio Amplifier Module**
 
@@ -30,7 +30,7 @@ title: Component Selection Example
 
 **Rationale:** The LM386 was chosen because it is designed for audio amplification and can directly drive an 8 Ω speaker from a 5 V supply which is very helpful since I will not need to introduce another power supply. This makes it a practical choice for increasing the output power of the DAC signal so that the alarm can be heard clearly. Lastly, the DIP package is easy to solder (I am not good at soldering) and is very commonly used in audio projects so I will be able to access resources on the part if I am having any trouble with this part during construction.  
 
-*Table 1:*
+*Table 3:*
 
 **Speaker Module**
 
