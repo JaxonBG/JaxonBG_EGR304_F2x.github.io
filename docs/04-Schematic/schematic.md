@@ -8,7 +8,7 @@ This schematic is design to support .... (highlight functionally, power, and con
 
 Schematic should be shown here ->
 
-![schematic](Screenshot.png){style width:"350" height:"300;"}
+![schematic](https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/4ec8b5787e80cb62a725ff95ee81b018dd5bcd3f/docs/04-Schematic/Screenshot.png){style width:"350" height:"300;"}
 **Figure ##:** Showing a example schematic.
 
 
