@@ -14,4 +14,4 @@ Schematic should be shown here ->
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](file:///C:/Users/jaxbg/Downloads/New%20folder/power_supply_assignment/HW_2_assignment/HW_3_assignment/Hw_4_assignment/Schematic_Design/Schematic/Schematic_Design.pdf), and the Zip folder of the project [*here*]().
+The schematic as a PDF download is available [*here*](file:///C:/Users/jaxbg/Downloads/New%20folder/power_supply_assignment/HW_2_assignment/HW_3_assignment/Hw_4_assignment/Schematic_Design/Schematic/Schematic_Design.pdf), and the Zip folder of the project [*here*](https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/5a8abe726b18a176f2e3f1cf113e8bd2be590566/docs/04-Schematic/Schematic_Design_ZIP.zip).
