@@ -8,7 +8,7 @@ This schematic is design to support .... (highlight functionally, power, and con
 
 Schematic should be shown here ->
 
-![schematic](Schematic_Design.pdf){style width:"350" height:"300;"}
+![schematic](Screenshot%202026-10-19%20193007.png){style width:"350" height:"300;"}
 **Figure ##:** Showing a example schematic.
 
 
