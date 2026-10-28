@@ -9,9 +9,8 @@ Write a overview of what you did and why you did a Power Budget.
 
 ![budget1](Screenshot%202026-10-28%20120655.png){style width:"350" height:"300;"}
 
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
+![budget2](Screenshot%202026-10-28%20120713.png){style width:"350" height:"300;"}
 
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
 
 ## Conclusions
 
