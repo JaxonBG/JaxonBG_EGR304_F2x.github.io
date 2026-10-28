@@ -3,9 +3,8 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+The purpose of the power budget was to make sure all of the components in the system could be powered safely by the selected power supply and voltage regulator. To do this, the current requirements of each component were added together and a 25% safety margin was included. The results showed that the system requires about 214 mA, which is well below the 1 A capacity of the LM7805 regulator and the 9 V wall adapter, confirming that the design has enough available power to operate reliably.
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
 ![budget1](Screenshot%202026-10-28%20120655.png){style width:"350" height:"300;"}
 
@@ -14,7 +13,7 @@ Write a overview of what you did and why you did a Power Budget.
 
 ## Conclusions
 
-From the prepare Power Budget, .....
+> The power budget shows that the system only requires about 214 mA, including a 25% safety margin, which is well below the 1 A limit of the LM7805 regulator and 9 V power supply. This means the selected power components can safely and reliably power the entire system.
 
 ## Resouces
 
