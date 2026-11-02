@@ -6,9 +6,7 @@ title: Schematic
 
 This schematic is design to support .... (highlight functionally, power, and controller).
 
-Schematic should be shown here ->
-
-![schematic](Screenshot%202026-10-30%20134606.png){style width:"350" height:"300;"}
+![schematic](Screenshot%202026-11-02%20134757.png){style width:"350" height:"300;"}
 **Figure ##:** Showing a example schematic.
 
 
