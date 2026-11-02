@@ -12,4 +12,4 @@ This schematic is design to support .... (highlight functionally, power, and con
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/4ffbbb266139d1aaeb24f16c2efead887346c3e0/docs/04-Schematic/Schematic_Design.pdf), and the Zip folder of the project [*here*](https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/5a8abe726b18a176f2e3f1cf113e8bd2be590566/docs/04-Schematic/Schematic_Design_ZIP.zip).
+The schematic as a PDF download is available [*here*](https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/cd71e347b9a56c42ddb3a7a60eb6d5e80f0913f2/docs/04-Schematic/schematic2.0.pdf), and the Zip folder of the project [*here*](https://github.com/JaxonBG/JaxonBG_EGR304_F2x.github.io/blob/5a8abe726b18a176f2e3f1cf113e8bd2be590566/docs/04-Schematic/Schematic_Design_ZIP.zip).
